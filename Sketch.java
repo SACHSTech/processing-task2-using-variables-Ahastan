@@ -31,7 +31,7 @@ public class Sketch extends PApplet {
     fill(240,230,140);
     rect(0,250, 400, 300);
 
-    //sand using variables
+    //sand using variable
     stroke(width/1.6,height/1.7,height/2.8);
     fill(240,230,140);
     rect(0,250, 400, 300);
