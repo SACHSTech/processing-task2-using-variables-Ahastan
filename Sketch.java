@@ -8,7 +8,7 @@ public class Sketch extends PApplet {
    */
   public void settings() {
 	// put your size call here
-    size(400, 400);
+    size(600,600);
   }
 
   /** 
@@ -24,63 +24,58 @@ public class Sketch extends PApplet {
    */
   public void draw() {
 	
-	//ellipse(width/2, height/2, width, height);
+	//ellipse(width/2.2, height/2, width, height);
 
     //sand
-	  stroke(240,230,140);
+    stroke(240,230,140);
     fill(240,230,140);
-    rect(0,250, 400, 300);
+    rect(0,height/1.6f, width, height-100);
 
-    //sand using variable
-    stroke(width/1.6,height/1.7,height/2.8);
-    fill(240,230,140);
-    rect(0,250, 400, 300);
- /*   
-    //waves  
+    //waves
     stroke(66, 135, 245);
     fill(66, 135, 245);
-    ellipse(0,220, 400, 100);
+    ellipse(0, width/1.8f, height, width - 300);
+   
+    stroke(66, 135, 245);
+    fill(66, 135, 245);
+    ellipse(width/1.6f,height/1.8f, height, height-300);
     
     stroke(66, 135, 245);
     fill(66, 135, 245);
-    ellipse(250,220, 400, 100);
-    
-    stroke(66, 135, 245);
-    fill(66, 135, 245);
-    ellipse(470,220, 400, 100);
-    
+    ellipse(width/0.85f, height/1.8f, height, width - 300);
+     
 //  grass
     stroke(55, 135, 39);
     fill(55, 135, 39);
-    bezier(400,200, 400,500,500, 500, 200, 400);
+    bezier(width,height/2, width, height/0.8f, width/0.8f, height/0.8f, width/2, height);
     
-    
+     
 //  sun
     stroke(230, 255, 8);
     fill(230, 255, 8);
-    ellipse(0, 0, 200, 200);  
-    
+    ellipse(0, 0, height/2, width/2);  
+  
     //tree
     stroke(165,42,42);
     fill(165,42,42);
-    rect(300,200,20,150);
+    rect(width/1.33f, height/2, width/20, height/2.7f);
     
     stroke(45, 201, 14);
     fill(45, 201, 14);
-    ellipse(310,200,50,50);
+    ellipse(width/1.29f , height/2 , width/8 , height/8);
     
     stroke(45, 201, 14);
     fill(45, 201, 14);
-    ellipse(280,200,50,50);
+    ellipse(width/1.43f, height/2 , width/8 , width/8);
     
     stroke(45, 201, 14);
     fill(45, 201, 14);
-    ellipse(340,200,50,50);
+    ellipse(width/1.17f, height/2 , width/8 , height/8);
     
     stroke(45, 201, 14);
     fill(45, 201, 14);
-    ellipse(310,170,50,50);
-*/
+    ellipse(width/1.29f, height/2.35f, width/8, height/8);
+
     
     
     
